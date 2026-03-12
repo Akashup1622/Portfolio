@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+:root { font-family: "Inter", sans-serif; }
+html { scroll-behavior: smooth; }
+body { background-color: #050816; color: #e2e8f0; min-height: 100vh; }
+
+@keyframes pageIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.page-enter { animation: pageIn 0.5s ease forwards; }
+
+@keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+.cursor-blink { animation: blink 1s step-end infinite; }
+
+.gradient-text {
+  background: linear-gradient(135deg, #818cf8, #a78bfa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@keyframes ping { 75%, 100% { transform: scale(2); opacity: 0; } }
+.dot-ping { animation: ping 1.2s cubic-bezier(0,0,0.2,1) infinite; }
+
+.card {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(99,102,241,0.4);
+  box-shadow: 0 20px 60px rgba(99,102,241,0.12);
+}
+
+.section-title { font-size: clamp(28px, 5vw, 42px); font-weight: 800; color: #f1f5f9; margin-bottom: 14px; }
+.section-bar {
+  width: 80px; height: 5px;
+  background: linear-gradient(90deg, #6366f1, #8b5cf6);
+  border-radius: 99px; margin: 0 auto 48px;
+}
+
+.btn-primary {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  padding: 13px 28px; border-radius: 12px; font-weight: 700; font-size: 15px;
+  font-family: "Inter", sans-serif; background: #6366f1; color: #fff;
+  border: none; cursor: pointer; text-decoration: none;
+  transition: all 0.3s ease; box-shadow: 0 8px 24px rgba(99,102,241,0.3);
+}
+.btn-primary:hover { background: #5558e3; transform: translateY(-2px); box-shadow: 0 12px 32px rgba(99,102,241,0.4); }
+
+.btn-outline {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  padding: 12px 24px; border-radius: 12px; font-weight: 600; font-size: 15px;
+  font-family: "Inter", sans-serif; background: rgba(255,255,255,0.05);
+  color: #cbd5e1; border: 1px solid rgba(255,255,255,0.12);
+  cursor: pointer; text-decoration: none; transition: all 0.3s ease;
+}
+.btn-outline:hover { background: rgba(255,255,255,0.1); color: #f1f5f9; transform: translateY(-2px); }
+
+.container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }

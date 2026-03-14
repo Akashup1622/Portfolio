@@ -115,7 +115,7 @@ export default function Home() {
         <div className="container">
           <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 32, textAlign: "center" }} className="stats-grid">
             {[
-              { num: "3+",  label: "Years Experience" },
+              { num: "1y",  label: "Years Experience" },
               { num: "2",   label: "Live Projects" },
               { num: "5",   label: "Tech Skills" },
               { num: "20+", label: "Happy Clients" },

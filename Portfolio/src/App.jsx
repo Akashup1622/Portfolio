@@ -1,7 +1,7 @@
 import { Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
+import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Skills from "./Pages/Skills";
 import Projects from "./Pages/Projects";

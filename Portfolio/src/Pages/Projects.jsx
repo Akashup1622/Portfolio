@@ -8,7 +8,7 @@ const projects = [
     emoji: "🐉",
     accentColor: "#ef4444",
     demo: "https://dragonball-sooty.vercel.app/",
-    github: "https://github.com/akashupadhyay",
+    github: "https://github.com/Akashup1622",
     features: ["Character Showcase", "Animated UI", "Responsive Design", "Dark Theme"],
   },
   {
@@ -20,7 +20,7 @@ const projects = [
     emoji: "✍️",
     accentColor: "#3b82f6",
     demo: "https://blogapp-iota-flame.vercel.app/",
-    github: "https://github.com/akashupadhyay",
+    github: "https://github.com/Akashup1622",
     features: ["Create & Read Posts", "Responsive Layout", "Clean Typography", "Fast Loading"],
   },
 ];

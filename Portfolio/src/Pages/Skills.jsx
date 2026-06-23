@@ -6,6 +6,11 @@ const skills = [
   { name: "JavaScript",  pct: 88, color: "#eab308", icon: "⚡", desc: "ES2024+, async/await, DOM manipulation" },
   { name: "React",       pct: 92, color: "#22d3ee", icon: "⚛️", desc: "Hooks, Context, React Router, performance" },
   { name: "Tailwind CSS",pct: 85, color: "#2dd4bf", icon: "💨", desc: "Utility-first styling, custom themes" },
+  { name: "Node.js",     pct: 85, color: "#22c55e", icon: "🟢", desc: "Server-side logic, API development & async runtime" },
+  { name: "Express.js",  pct: 82, color: "#cbd5e1", icon: "🚂", desc: "RESTful API routes & custom middlewares" },
+  { name: "MongoDB",     pct: 80, color: "#16a34a", icon: "🍃", desc: "NoSQL database schemas & CRUD query operations" },
+  { name: "JWT Auth",    pct: 85, color: "#a855f7", icon: "🔑", desc: "Secure token-based user login & authorization" },
+  { name: "REST APIs",   pct: 88, color: "#ec4899", icon: "🔌", desc: "Connecting React frontend with server endpoints" },
 ];
 
 const tools = [

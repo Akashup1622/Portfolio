@@ -12,16 +12,22 @@ const projects = [
     features: ["Character Showcase", "Animated UI", "Responsive Design", "Dark Theme"],
   },
   {
-    title: "Blog App",
+    title: "MERN Blog Platform",
     description:
-      "A full-featured blogging platform where users can create, browse, and read articles. Features a clean, distraction-free reading experience with a focus on typography and performance.",
-    tech: ["React", "Tailwind CSS", "JavaScript"],
+      "A full-stack blogging platform where users can write, edit, and read articles with markdown support. Built using React, Node.js, Express, and MongoDB with secure JWT authentication.",
+    tech: ["React", "Node.js", "Express", "MongoDB", "JWT"],
     gradient: "linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #0c1832 100%)",
     emoji: "✍️",
     accentColor: "#3b82f6",
     demo: "https://blogapp-iota-flame.vercel.app/",
     github: "https://github.com/Akashup1622",
-    features: ["Create & Read Posts", "Responsive Layout", "Clean Typography", "Fast Loading"],
+    features: [
+      "🖥️ Frontend: Interactive React UI with rich text editor",
+      "⚙️ Backend: Secure Node & Express REST API for posts",
+      "💾 Database: MongoDB schema for users & blog content",
+      "🔐 Authentication: JWT session logins & authorization",
+      "☁️ Deployment: React on Vercel, Node/Express on Render"
+    ],
   },
 ];
 

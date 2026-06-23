@@ -1,7 +1,12 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-const phrases = ["Building beautiful UIs", "React Developer", "CSS Craftsman", "Frontend Engineer"];
+const phrases = [
+  "Building Full-Stack Web Apps",
+  "MERN Stack Developer",
+  "Designing Frontends, Powering Backends",
+  "Connecting React to Databases"
+];
 
 function TypingText() {
   const [text, setText] = useState("");
@@ -86,8 +91,7 @@ export default function Home() {
 
           {/* Summary */}
           <p style={{ color: "#64748b", fontSize: "clamp(15px, 2vw, 18px)", lineHeight: 1.8, maxWidth: 600, margin: "0 auto 44px" }}>
-            I craft fast, beautiful, and accessible web experiences using React and modern CSS. 
-            Passionate about clean code and pixel-perfect design.
+            I build fast, responsive user interfaces in React and back them up with secure Node.js APIs and MongoDB databases. I focus on writing clean, end-to-end code.
           </p>
 
           {/* CTAs */}

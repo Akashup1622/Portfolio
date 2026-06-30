@@ -4,8 +4,7 @@ const posts = [
   {
     title: "Getting Started with React Hooks",
     excerpt: "A comprehensive guide to understanding and using React Hooks effectively in your modern functional components. Covers useState, useEffect, useRef, and custom hooks.",
-    date: "March 15, 2024",
-    readTime: "5 min read",
+    date: "May 15, 2025",
     category: "React",
     color: "#22d3ee",
     tags: ["React", "Hooks", "Frontend"],
@@ -13,8 +12,7 @@ const posts = [
   {
     title: "Mastering CSS Grid Layout",
     excerpt: "Learn how to build complex, responsive web layouts using CSS Grid. From basic concepts like grid-template-columns to advanced techniques like auto-fill and minmax.",
-    date: "February 28, 2024",
-    readTime: "4 min read",
+    date: "March 28, 2025",
     category: "CSS",
     color: "#3b82f6",
     tags: ["CSS", "Layout", "Responsive"],
@@ -22,8 +20,7 @@ const posts = [
   {
     title: "JavaScript ES2024 Features",
     excerpt: "Explore the newest features added to JavaScript in 2024 and how they can improve your daily development workflow — from Array groupBy to the new Temporal API.",
-    date: "January 10, 2024",
-    readTime: "6 min read",
+    date: "February 10, 2025",
     category: "JavaScript",
     color: "#eab308",
     tags: ["JavaScript", "ES2024", "Web Dev"],
@@ -31,8 +28,7 @@ const posts = [
   {
     title: "Building Responsive UIs with Tailwind CSS",
     excerpt: "How to leverage Tailwind's utility-first approach to build fully responsive layouts without writing a single line of custom CSS. Includes real component examples.",
-    date: "December 5, 2023",
-    readTime: "7 min read",
+    date: " April 5, 2025",
     category: "Tailwind",
     color: "#2dd4bf",
     tags: ["Tailwind", "CSS", "UI"],
@@ -40,24 +36,34 @@ const posts = [
   {
     title: "React Router v6 – Complete Guide",
     excerpt: "Everything you need to know about React Router v6 — from basic routing to nested routes, loaders, actions, and the new file-based routing patterns.",
-    date: "November 20, 2023",
-    readTime: "8 min read",
+    date: "May 20, 2025",
     category: "React",
     color: "#22d3ee",
     tags: ["React", "Router", "SPA"],
   },
   {
-    title: "Vite vs Create React App in 2024",
+    title: "Vite vs Create React App in 2025",
     excerpt: "A detailed comparison of Vite and Create React App for starting new React projects. Benchmarks, DX comparison, and a verdict on which to choose.",
-    date: "October 14, 2023",
-    readTime: "4 min read",
+    date: "June 14, 2025",
     category: "Tooling",
     color: "#a78bfa",
     tags: ["Vite", "CRA", "Tooling"],
   },
+  {
+    title: "Getting Started with Node.js, Express.js & MongoDB",
+    excerpt: "Learn how Node.js, Express.js, and MongoDB work together to build fast, scalable, and efficient full-stack web applications. Includes setup, API creation, and database integration.",
+    date: "October 30, 2025",
+    category: "Backend Development",
+    color: "#34d399",
+    tags: ["Node.js", "Express.js", "MongoDB"],
+  },
+
+
+
+
 ];
 
-const categories = ["All", "React", "CSS", "JavaScript", "Tailwind", "Tooling"];
+const categories = ["All", "React", "CSS", "JavaScript", "Tailwind", "Backend", "Tooling"];
 
 export default function Blog() {
   const [active, setActive] = useState("All");
@@ -134,7 +140,7 @@ export default function Blog() {
                 paddingTop: 16, borderTop: "1px solid rgba(255,255,255,0.07)",
               }}>
                 <span style={{ fontSize: 12, color: "#334155" }}>⏱ {post.readTime}</span>
-                <button style={{
+                {/* <button style={{
                   background: "none", border: "none", cursor: "pointer",
                   fontSize: 13, fontWeight: 700, color: "#818cf8",
                   fontFamily: "Inter, sans-serif", transition: "color 0.2s",
@@ -142,7 +148,7 @@ export default function Blog() {
                 }}
                   onMouseEnter={(e) => (e.currentTarget.style.color = "#a78bfa")}
                   onMouseLeave={(e) => (e.currentTarget.style.color = "#818cf8")}
-                >Read More →</button>
+                >Read More →</button> */}
               </div>
             </article>
           ))}

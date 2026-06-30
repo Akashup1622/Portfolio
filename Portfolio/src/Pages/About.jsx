@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 
-const timeline =  [
+const timeline = [
   {
-    year: "Oct 2025 – Present",
-    title: "Frontend Developer Trainee",
+    year: "Oct 2025 – May 2026",
+    title: "MERN STACK Developer Trainee",
     org: "Dreamer Infotech",
-    desc: "Currently undergoing professional training in frontend development using React, JavaScript, and Tailwind CSS while building real-world web applications.",
-    type: "work",
+    desc: "Undergoing professional training in MERN Stack Development, gaining hands-on experience in MongoDB, Express.js, React.js, and Node.js while building scalable full-stack web applications.",
+    type: "Internship",
   },
   {
     year: "Jan 2025 – Sept 2025",
@@ -65,7 +65,7 @@ export default function About() {
           {/* Bio */}
           <div>
             <h2 style={{ fontSize: 26, fontWeight: 800, color: "#f1f5f9", marginBottom: 16 }}>
-              Passionate Frontend Developer creating web experiences.
+              Passionate MERN STACK Developer creating web experiences.
             </h2>
             <p style={{ color: "#64748b", fontSize: 16, lineHeight: 1.85, marginBottom: 16 }}>
               I'm <strong style={{ color: "#818cf8" }}>Akash Upadhyay</strong>, a frontend developer with 0.8 years of experience building
@@ -78,7 +78,7 @@ export default function About() {
             </p>
 
             <div style={{ display: "flex", flexWrap: "wrap", gap: 12, marginBottom: 32 }}>
-              {["📍 New Delhi, India",  "🟢 Available for work"].map((item) => (
+              {["📍 New Delhi, India", "🟢 Available for work"].map((item) => (
                 <span key={item} style={{
                   padding: "8px 16px", borderRadius: 99, fontSize: 13, fontWeight: 500,
                   background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.09)",

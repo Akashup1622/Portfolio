@@ -68,7 +68,7 @@ export default function About() {
               Passionate MERN STACK Developer creating web experiences.
             </h2>
             <p style={{ color: "#64748b", fontSize: 16, lineHeight: 1.85, marginBottom: 16 }}>
-              I'm <strong style={{ color: "#818cf8" }}>Akash Upadhyay</strong>, a frontend developer with 0.8 years of experience building
+              I'm <strong style={{ color: "#818cf8" }}>Akash Upadhyay</strong>, a frontend developer with 7 months of experience building
               fast, accessible, and visually polished web applications. I specialize in React and Tailwind CSS,
               and I care deeply about both code quality and design.
             </p>

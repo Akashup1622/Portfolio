@@ -46,10 +46,10 @@ function TypingText() {
 
 export default function Home() {
   const quickLinks = [
-    { to: "/about",    label: "About Me",  desc: "My story & background" },
-    { to: "/skills",   label: "Skills",    desc: "What I work with" },
-    { to: "/projects", label: "Projects",  desc: "Things I've built" },
-    { to: "/blog",     label: "Blog",      desc: "My latest writings" },
+    { to: "/about", label: "About Me", desc: "My story & background" },
+    { to: "/skills", label: "Skills", desc: "What I work with" },
+    { to: "/projects", label: "Projects", desc: "Things I've built" },
+    { to: "/blog", label: "Blog", desc: "My latest writings" },
   ];
 
   return (
@@ -119,9 +119,9 @@ export default function Home() {
         <div className="container">
           <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 32, textAlign: "center" }} className="stats-grid">
             {[
-              { num: "1y",  label: "Years Experience" },
-              { num: "2",   label: "Live Projects" },
-              { num: "5",   label: "Tech Skills" },
+              { num: "7", label: "Months Experience" },
+              { num: "2", label: "Live Projects" },
+              { num: "6", label: "Tech Skills" },
               { num: "20+", label: "Happy Clients" },
             ].map((s) => (
               <div key={s.label}>
